@@ -1,0 +1,84 @@
+msgid ""
+msgstr "Project-Id-Version: Scene Progress 1.0.0\nPO-Revision-Date: 2026-10-17 12:00+0200\nLast-Translator: Scene Progress contributors\nLanguage-Team: Polish\nLanguage: pl\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Pages and reading time to the next scene in the standard status bar."
+msgstr "Strony i czas czytania do końca sceny w standardowym pasku stanu."
+
+msgid "p."
+msgstr "str."
+
+msgid "Scene:"
+msgstr "Scena:"
+
+msgid "Status:"
+msgstr "Stan:"
+
+msgid "Ready"
+msgstr "Gotowe"
+
+msgid "Scanning in background"
+msgstr "Skanowanie w tle"
+
+msgid "Waiting for a full document layout"
+msgstr "Oczekiwanie na pełny układ dokumentu"
+
+msgid "Scan failed; try rescanning"
+msgstr "Skanowanie nie powiodło się; spróbuj ponownie"
+
+msgid "Inactive"
+msgstr "Nieaktywne"
+
+msgid "Detected separators:"
+msgstr "Wykryte separatory:"
+
+msgid "Unmapped candidates:"
+msgstr "Niezmapowane kandydatury:"
+
+msgid "Page"
+msgstr "Strona"
+
+msgid "Enable scene counter"
+msgstr "Włącz licznik scen"
+
+msgid "Show remaining pages"
+msgstr "Pokazuj pozostałe strony"
+
+msgid "Show remaining time"
+msgstr "Pokazuj pozostały czas"
+
+msgid "Compact format"
+msgstr "Tryb kompaktowy"
+
+msgid "Separator types"
+msgstr "Rodzaje separatorów"
+
+msgid "Single asterisk (*)"
+msgstr "Pojedyncza gwiazdka (*)"
+
+msgid "Multiple asterisks (***)"
+msgstr "Wiele gwiazdek (***)"
+
+msgid "Typographic ornaments"
+msgstr "Ozdobniki typograficzne"
+
+msgid "Semantic dividers (hr, CSS classes)"
+msgstr "Separatory semantyczne (hr, klasy CSS)"
+
+msgid "CSS class names"
+msgstr "Nazwy klas CSS"
+
+msgid "Separator CSS classes (space separated)"
+msgstr "Klasy CSS separatorów (oddzielone spacjami)"
+
+msgid "Cancel"
+msgstr "Anuluj"
+
+msgid "Save"
+msgstr "Zapisz"
+
+msgid "Rescan book"
+msgstr "Skanuj książkę ponownie"
+
+msgid "Diagnostics"
+msgstr "Diagnostyka"
+

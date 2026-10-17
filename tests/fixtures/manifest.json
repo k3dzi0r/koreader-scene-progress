@@ -1,0 +1,37 @@
+[
+  {
+    "name": "single",
+    "separators": 2,
+    "chapters": 2
+  },
+  {
+    "name": "triple",
+    "separators": 2,
+    "chapters": 1
+  },
+  {
+    "name": "none",
+    "separators": 0,
+    "chapters": 1
+  },
+  {
+    "name": "footnotes",
+    "separators": 0,
+    "chapters": 1
+  },
+  {
+    "name": "midpage",
+    "separators": 1,
+    "chapters": 1
+  },
+  {
+    "name": "split",
+    "separators": 1,
+    "chapters": 2
+  },
+  {
+    "name": "semantic",
+    "separators": 5,
+    "chapters": 1
+  }
+]

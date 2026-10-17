@@ -1,0 +1,15 @@
+Checking sceneprogress.koplugin/_meta.lua         OK
+Checking sceneprogress.koplugin/main.lua          OK
+Checking sceneprogress.koplugin/sceneprogress/config.lua OK
+Checking sceneprogress.koplugin/sceneprogress/detector.lua OK
+Checking sceneprogress.koplugin/sceneprogress/i18n.lua OK
+Checking sceneprogress.koplugin/sceneprogress/index.lua OK
+Checking sceneprogress.koplugin/sceneprogress/time.lua OK
+Checking sceneprogress.koplugin/sceneprogress/worker.lua OK
+Checking tests/test_core.lua                      OK
+Checking tests/test_frontend_native.lua           OK
+Checking tests/test_lifecycle.lua                 OK
+Checking tests/test_native.lua                    OK
+Checking tests/test_worker_native.lua             OK
+
+Total: 0 warnings / 0 errors in 13 files

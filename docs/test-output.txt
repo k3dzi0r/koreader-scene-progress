@@ -1,0 +1,49 @@
+PASS: LuaJIT syntax and KOReader whitespace/size conventions (13 files)
+ok 1 - single, triple, spaced stars, numeric entity and ornaments
+ok 2 - no scenes and inline prose
+ok 3 - footnote references and ancestors
+ok 4 - CSS-hidden ancestor and computed hidden nodes
+ok 5 - inline formatting does not duplicate block candidates
+ok 6 - semantic classes, hr and conservative prose rejection
+ok 7 - rule toggles and custom exact CSS tokens
+ok 8 - boxing normalization preserves sibling indexes
+ok 9 - quoted greater-than attributes and malformed DOM
+ok 10 - forward, same-page and backward navigation
+ok 11 - last scene falls back to real chapter and end of book
+ok 12 - hidden-flow numbering and non-linear reading
+ok 13 - time uses native measured rate and rejects default seed
+PASS: 13 core tests
+ok lifecycle 1 - register, footer callback identity, enable once and native chapter coexist
+ok lifecycle 2 - independent indicators, compact mode, persistence and disable/re-enable
+ok lifecycle 3 - reflow rejects old pages immediately and ignores stale worker
+ok lifecycle 4 - cached index reused; file/layout/rules changes invalidate it
+ok lifecycle 5 - close during scan, switch books without restart and no leaked callback
+ok lifecycle 6 - PDF and unsupported footer APIs remain inactive
+ok lifecycle 7 - failed/malformed book scan and delayed layout do not show invented values
+ok lifecycle 8 - menu exposes configuration and rescan
+PASS: 8 lifecycle tests
+PASS: fixture ZIP/XML structure and uncompressed first mimetype
+ok worker 1 - real fork and serialized result
+ok worker 2 - pipe result exceeds kernel buffer without blocking reader
+ok worker 3 - scan failure is isolated
+ok worker 4 - cancel kills, closes and reaps without delivering stale result
+ok worker 5 - timeout releases resources
+PASS: 5 worker tests against upstream POSIX implementation
+ok frontend 1 - actual KOReader gettext reads private Polish MO catalogue
+ok frontend 2 - actual KOReader dump preserves binary cache keys and XPointers
+ok frontend 3 - actual ReaderFooter add/remove/refresh and native chapter/time generators coexist
+PASS: 3 tests against upstream frontend source
+ok native 1 - single: 2 separators / 14 pages
+ok native 2 - triple: 2 separators / 11 pages
+ok native 3 - none: 0 separators / 4 pages
+ok native 4 - footnotes: 0 separators / 8 pages
+ok native 5 - midpage: 1 separators / 4 pages
+ok native 6 - split: 1 separators / 14 pages
+ok native 7 - semantic: 5 separators / 21 pages
+ok native 8 - font reflow, hash, forward/backward, nonnegative pages
+ok native 9 - DOM version 20171225
+ok native 10 - DOM version 20200223
+ok native 11 - corrupt EPUB is rejected by format gating
+100000 lookups / 10000 separators: 0.015s (host CPU)
+PASS: 11 native CREngine tests
+PASS: all fixture EPUBs unchanged (SHA-256)
